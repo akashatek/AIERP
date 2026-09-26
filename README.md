@@ -1,16 +1,8 @@
 # AIERP
 AI ERP is a new age ERP massively using AI to manage business process and data
 
+We are running python langchain with Ollama (llama3.1:8b) and Postgres (18.6).
 
-[https://supabase-supabase.mintlify.app/guides/building-a-todo-app](https://supabase-supabase.mintlify.app/guides/building-a-todo-app)
-
-
-````
-npx create-next-app ai-erp
-cd ai-erp
-
-npm install @supabase/supabase-js @supabase/auth-helpers-nextjs @supabase/auth-helpers-react @supabase/auth-ui-react @supabase/auth-ui-shared
-
-
-
-```
+Components:
+ - [AI-Cloud-Platform](https://github.com/akashatek/AI-Cloud-Platform)
+ - [OllamaTelegramBot](OllamaTelegramBot/README.md)
